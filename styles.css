@@ -1,0 +1,36 @@
+body {
+    background-color: cadetblue;
+}
+.game{
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 2rem;
+}
+.grid {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+}
+.grid div {
+    width: 20px;
+    height: 20px;
+
+}
+.invader {
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.shooter {
+    background-color: red;
+}
+.laser{
+    background-color: rgb(162, 141, 208);
+}
+
+.boom {
+    background-color: orange;
+}
